@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<themeeditor>
+	<version value="1.4">
+	<ccc available="true" />
+	<guest_checkout available="true" />
+	<one_page_checkout available="true" />
+	<store_locator available="true" />
+	</version>
+	<author>leotheme</author>
+<name>Live Theme Editor</name>	
+<selectors>
+	<items>
+		<header>Body Content</header>
+		<match>body</match>
+		<item>
+			<type>image</type>
+			<label>Body Bg Image</label>
+			<selector>body, body:before</selector>
+			<attrs>background-image</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Background Content</label>
+			<selector>body</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>image</type>
+			<label>Container Bg Image</label>
+			<selector>.container</selector>
+			<attrs>background-image</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Container Background</label>
+			<selector>.container</selector>
+			<attrs>background-color</attrs>
+		</item> 
+	 	<item>
+			<type>fontsize</type>
+			<label>Font-Size</label>
+			<selector>body</selector>
+			<attrs>font-size</attrs>
+		</item>
+	 	<item>
+			<type>fontfamily</type>
+			<label>Font-Family</label>
+			<selector>.wrapper .container .title_block</selector>
+			<attrs>font-family</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>body,p</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Link Color</label>
+			<selector>a</selector>
+			<attrs>color</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Link Hover Color</label>
+			<selector>a:hover</selector>
+			<attrs>color</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Headings Color</label>
+			<selector>h1, h2, h3, h4, h5, h6</selector>
+			<attrs>color</attrs>
+		</item>
+	</items>
+</selectors>
+</themeeditor>
